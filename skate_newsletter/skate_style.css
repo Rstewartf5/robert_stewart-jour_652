@@ -1,0 +1,53 @@
+/*styles for skate newsletter*/
+
+.col-md-6 
+{margin:0 auto;
+text-align: center;}
+
+.com-md-4{text-align: center;}
+
+h1{
+ font-family: "Special Elite";  
+}
+
+
+.row 
+{margin:0 auto;
+padding-bottom: 50px;}
+
+.subtitle 
+{margin:0 auto;
+font-family: "Special Elite";
+text-align: center;}
+
+.navbar {font-family:"Special Elite";}
+
+.container{text-align: center;}
+
+.content
+{margin:0 auto;
+}
+
+.lead{text-align: left;}
+
+#button{text-align: left;}
+
+.image
+{margin: auto;
+width: 100%;
+max-width: 500px;
+}
+
+.btn
+{margin: 0 auto;
+margin-top: 25px;
+font-family: "Special Elite";}
+
+.bi{font-size: 3em;
+text-align: center;}
+
+@media screen and (max-width: 500px) {
+.row{padding: bottom 50px;}
+h2{padding-top: 50px;}
+.btn{background-color: teal; !important}
+}
