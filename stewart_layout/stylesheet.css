@@ -1,0 +1,50 @@
+/*styling the masthead*/
+
+.hero{
+    background-image: url(/stewart_layout/Images/Mars.jpeg);
+    background-color: black;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: azure;
+}
+
+header{
+    font-size: 42px;
+    margin: 0;
+    text-align: center;
+}
+
+h2{text-align: center;}
+
+/*styling the content wrapper*/
+#content{
+    margin: 0 auto;
+    width: 900px;
+    max-width: 900px;
+}
+#headline{
+    font-size: 22px ;
+    font-family: Helvetica, sans-serif;
+    font-style: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    }
+    .picture{
+        margin: 0 auto;
+        padding-left: 100;
+        padding-right: 100;
+        width: 100%;
+    }
+p{
+    font-family: Georgia, serif;
+    font-size: 13 px;
+    margin:o auto;
+    padding-left: 250px;
+    padding-right: 250px;
+    }
