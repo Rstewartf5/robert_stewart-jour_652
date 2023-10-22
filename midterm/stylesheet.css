@@ -1,0 +1,150 @@
+/*stylesheet for midterm exercise*/
+
+
+@media screen and {max-width: 400px;
+    font-size: 10px;}
+    #banner {max-width: 100%;
+}
+/*attempting to create the feel of a navigation bar*/
+.navbar{
+    width:100%;
+    background-color: blanchedalmond;
+    border-width: 5px;
+    border-color: white;
+    font-family: cursive;
+    color: rgb(187, 177, 91);
+    position: sticky;
+    bottom: 250px;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 20px;
+    
+}
+/*setting the style for headers and subheaders*/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;  
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;   
+}
+
+h3{
+    font-family: hevetica, arial, sans-serif;
+    font-size: 10px; 
+    
+}
+
+p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-bottom: 12px;
+   
+}
+/*styling the banner*/
+
+#banner {
+background-image: url(./roman_art.jpg);
+position: relative;
+background-size:cover;
+height: 700px;
+width: 100%;
+}
+
+#banner .magazine h1{
+    position: relative;
+    font-family: cursive;
+    margin-top: 5px;
+    color: beige;
+    font-weight: 300;
+    font-size: 72px;
+    width: 100%;
+}
+
+.content{
+    margin: 0 atuo;
+    width: 90%;
+    border-left: 50px;
+    border-right: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.copy{
+    padding-left:  150px;
+    padding-right: 150px;
+    
+}
+
+.picture{
+    width:100%;
+    margin-bottom: 20px;
+    margin:0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+   
+}
+
+.byline{
+    padding-left:  150px;
+    padding-right: 150px;
+}
+
+/*styling the block quote*/
+.blockquote{
+    color:rgb(250, 253, 255);
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.blockquote h1{
+    margin: 0 auto;
+    font-size: 36px;
+    font-family: helvetica, arial, sans-serif;
+
+    
+}
+blockquote h3{margin: 0 auto;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 12px;
+}
+
+.related_list{
+    background-color: black;
+    font-family: helvetica, arial, sans-serif;
+    color:whitesmoke;
+    margin-left:250px;
+    margin-right:250px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:100%;
+}
+.related_list h1{
+    margin: 0 auto;
+    font-size: 24px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.related_list .links{
+    padding-left: 150px;
+    padding-right: 150px; 
+    font-family: helvetica,arial,sans-serif;
+    font-size: 14px;
+}
+
+
+.subtext{
+    font-family: helvetica,arial, sans-serif;
+    color: gray;
+    font-size: 10px;
+
+}
