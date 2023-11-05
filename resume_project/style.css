@@ -95,7 +95,16 @@
 @media screen and (max-width: 1250px){
     .bukhara {max-width: 100%;}
 }
-@media screen and (max-width: 300px){
+@media screen and (max-width: 250px){
     .picture{max-width: 100%;}
-    .col{max-width: 100%}
+    .column{max-width:100%;}
+    .accordion{max-width:100%;}
+    .accordion-item{max-width: 100%;}
+    .bibikhanim {max-width: 100%;}
+    .list{max-width: 100%}
+}
+
+@media screen and (max-width:600px){
+    .row2{max-width: 100%}
+
 }
