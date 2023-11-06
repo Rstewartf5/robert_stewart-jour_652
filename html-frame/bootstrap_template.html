@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--required meta tags-->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title> Bootstrap Template</title>
+     <meta name="description" content = "Merrill College of Journalism, UMD">
+     <meta name="author" content="Robert Stewart">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+     <!--add bootstrap icons-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+     
+     <!--linking to personal stylesheet-->
+     <link rel="stylesheet" type="text/css" href="style.css">
+
+     <!--adding google fonts montserrat-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Special+Elite&display=swap" rel="stylesheet">
+  
+  </head>
+
+  <body>
+    <!-- Navbar start-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+     <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+           <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+             <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+           </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+        </ul>
+      <form class="d-flex">
+
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+
+        <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Navbar end-->
+
+    <div class="container">
+
+        <p class="headline">Headline goes here</p>
+
+        <p class="byline">Byline goes here</p>
+
+        <p class="chapter_head">Kapitel: West-östlicher Diwan </p>
+        
+        <p>Sagt es niemand, nur den Weisen, Weil die Menge gleich verhöhnet: Das Lebendige will ich preisen,
+        Das nach Flammentod sich sehnet. In der Liebesnächte Kühlung, Die dich zeugte, wo du zeugtest, Überfällt dich fremde Fühlung, Wenn die stille Kerze leuchtet. Nicht mehr bleibest du umfangen, In der Finsternis Beschattung, Und dich reißet neu Verlangen, Auf zu höherer Begattung. </p>
+
+        <p>Keine Ferne macht dich schwierig, Kommst geflogen und gebannt, Und zuletzt, des Lichts begierig, Bist du Schmetterling verbrannt. Und so lang du das nicht hast, Dieses: Stirb und werde! Bist du nur ein trüber Gast, Auf der dunklen Erde.
+        </p>
+
+        <figure class="picture">
+          <img src="./images/treecat.jpg" alt="cat in a tree">
+          <figcaption class="caption"> caption:ferocious feline scaling down a tree</figcaption>
+  
+        </figure>
+
+        <p>Wer kann gebieten den Vögeln. Still zu sein auf der Flur? Und wer verbieten zu zappeln, Den Schafen unter der Schur? Stell ich mich wohl ungebärdig, Wenn mir die Wolle kraust? Nein! Die Ungebärden entzwingt mir,  Der Scherer, der mich zerzaust. Wer will mir wehren zu singen, Nach Lust zum Himmel hinan, Den Wolken zu vertrauen, Wie lieb sie mir's angetan?
+        </p>
+
+        <!--three columns-->
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+            <div class="col">
+              One of three columns
+            </div>
+          </div>
+        </div>
+
+        <!--end three columns-->
+
+        
+    </div>
+    <!--end of the container div-->
+
+
+    <!-- begin footer -->
+    
+    <div class= "footer">
+
+      <p>
+        Robert Stewart's HTML Frame 
+        <br>
+         این یکی از  پروژه های عالی رابرت هست. حسودی نکن
+      </p>
+  
+
+    </div>
+
+    <!-- Separate Popper and Bootstrap JS goes at the bottom of your body section -->
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+  </body>
+
+
+
+
+</html>
