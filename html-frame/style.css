@@ -49,6 +49,8 @@ p{
     margin-bottom: 10px;
     text-align: center;
 
-    @media screen and (max-width: 600px)
-       {picture {width: 100%;}
+    @media screen and (max-width: 600px){
+       picture {
+        width: 100%;
+    }
 }
