@@ -13,7 +13,7 @@ p {
   text-align:left;
   line-height:180%;
 }
-/*changed the width to 100%*/
+/*Issue #7: changed the width to 100%*/
 .splash_photo {
   width: 100%;
 
@@ -34,7 +34,7 @@ p {
   font-family: 'Oswald', sans-serif;
   font-weight:700;
 }
-/*changing the border-top from dotted to solid and changed from 5em to 5px*/
+/* Issue #8: changing the border-top from dotted to solid and changed from 5em to 5px*/
 
 
 .byline {
@@ -59,7 +59,7 @@ p {
   padding-bottom: 15px;
   height:100%;
 }
-/*changed the width in the caption class*/
+/*Issue #9 changed the width in the caption class*/
 .caption {
   width:100%;
   max-width:900px;
@@ -78,7 +78,7 @@ p {
   padding-top:25px;
   margin-top:100px;
 }
-/*changed the font color to white*/
+/* Issue #10: changed the font color to white*/
 .footer p {
   font-family: 'Oswald', sans-serif;
   color: white;
@@ -96,7 +96,7 @@ padding-top:1em;
   margin-bottom: 4em;
 }
 
-/*media was missing a braces at the end, also the media query is not complete. I believe it should be @media screen and*/
+/* Issue # 11: media was missing a braces at the end, also the media query is not complete. I believe it should be @media screen and*/
 @media screen and (max-width:550px) {
   p {
     padding-left:20px;
@@ -109,7 +109,7 @@ padding-top:1em;
     font-family: 'Oswald', sans-serif;
   font-weight:700;
   }
-  /*for the chapter head I added font styling similar to the head*/
+  /* Issue #12 for the chapter head I added font styling similar to the head*/
 
   .hed {
     font-size:2em;
