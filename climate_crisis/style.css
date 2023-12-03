@@ -119,11 +119,11 @@ a:link {
   }
   
   a:visited {
-    color: rgb(132, 5, 154);
+    color: rgb(175, 171, 175);
   }
   
   a:hover {
-    color: rgb(220, 178, 29);
+    color: rgb(179, 29, 220);
   }
 
 
