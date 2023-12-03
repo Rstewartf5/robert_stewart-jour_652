@@ -27,6 +27,22 @@ p{
 
 .picture {
     text-align: center;
+    width: 100%;
+
+}
+
+.picture_2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin: auto 0; 
+}
+
+.sidebar{
+    max-width: 600px;
+    border-width: 10px;
+    border-color: black;
+    padding: 10px;
 }
 
 .caption{
@@ -34,6 +50,12 @@ p{
     font-family: georgia, serif;
     color: darkgrey;
     text-align: left;
+}
+
+.chart{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .row{
