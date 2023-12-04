@@ -137,7 +137,7 @@ a:link {
 @media (max-width: 767px) {
        .headline{
         font-size: 1.5em;
-        top:0%;
+        top:10px;
         font-weight:300;}
        }
 
