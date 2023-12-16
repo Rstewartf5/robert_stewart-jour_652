@@ -56,9 +56,16 @@ p{
 .chart {
     margin-top: 20px;
     margin-bottom:20px;
-
 }
 
+.chart_1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+}
+/*I saw the use of a dropcap in a propublica article that can be found here: https://www.propublica.org/article/pandemic-spillover-madagascar-health-in-harmony*/
+/*I looked at their CSS and tried to adapt it for my own article*/
 .dropcap {
     float: left;
     font-size: 60px;
@@ -73,15 +80,18 @@ p{
         float: left;
     }
 
-    .hero_image{
+    .picture {
         width: 100%;
-        align-content: center;
+        text-align: center;
     }
 
     @media only screen and (max-width: 750px) {
-        hero_image {max-width: 100%}
+        .picture {max-width: 100%};
+        .image {max-width: 100%}
+
     };
 
+   
     .wrap{
         float: left;
         margin: 10px
