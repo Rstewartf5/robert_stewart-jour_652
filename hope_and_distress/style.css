@@ -72,3 +72,17 @@ p{
     .video {
         float: left;
     }
+
+    .hero_image{
+        width: 100%;
+        align-content: center;
+    }
+
+    @media only screen and (max-width: 750px) {
+        hero_image {max-width: 100%}
+    };
+
+    .wrap{
+        float: left;
+        margin: 10px
+    }
