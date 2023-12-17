@@ -77,26 +77,45 @@ p{
     padding-bottom: 0.5em;
 
     .video {
-        float: left;
+        margin: auto 0;
+        padding-left: 200px;
+        padding-right: 200px;
+        border-left: 10px;
+        border-right: 10px;
     }
 
     .picture {
         width: 100%;
-        text-align: center;
+        height: auto;
+        margin: 0;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
-    @media only screen and (max-width: 750px) {
-        .picture {max-width: 100%};
-        .image {max-width: 100%}
-
-    };
-
+    .footer{
+        background-color: black;
+    }
+    
+    
+    @media screen and (max-width: 800px) {
+        picture {
+            max-width: 100%;
+            height: auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto; 
+        }
+        video {
+            max-width: 100%;
+            height: auto; 
+        }
+    }
    
     .wrap{
         float: left;
         margin: 10px
     }
 
-    .footer{
-        background-color: black;
-    }
+  

@@ -134,14 +134,19 @@ a:link {
     margin-bottom: 10px;
     text-align: center;
 
-@media (max-width: 767px) {
-       .headline{
+@media screen and (max-width: 750px) {
+       headline
+       {
         font-size: 1.5em;
         top:10px;
-        font-weight:300;}
-       }
+        font-weight:300;
+        }
+ }
 
-@media (max-width: 750px) {
-    .picture_2{width: 100%;
+     @media screen and (max-width: 750px) {
+    picture_2
+    { 
+        max-width: 100%;
+        height: auto;
     }
 }
