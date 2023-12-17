@@ -96,8 +96,13 @@ p{
         display: block;
     }
 
-    .footer{
-        background-color: black;
+    .footer {
+        font-family: "PT Sans", sans-serif;
+         background-color: black;
+         color: lightgrey;
+         margin-bottom: 10px;
+         text-align: center;
+         margin: 0;
     }
 
     .blockquote{
