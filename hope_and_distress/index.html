@@ -108,8 +108,10 @@
           <p class = chapter_head>Coping through public protest </p>
           <p>Vaziri is one of several Marylanders that have been protesting for close to 6 months. Volunteering with DC-area National Solidarity Group (NSG) Iran she has participated in rallies and attempted to contact local politicians. Sometimes hundreds show up to the local protests. Sometimes thousands come, including well-known Hollywood celebrities like Shohreh Agdashloo and Nazanin Boniadi. Being active with the group has helped her cope with the emotional distress caused by the brutal news coming out of Iran.</p>
 
-          <div class="wrap">
-            <video width="800" height="500" autoplay muted loop class="video">
+          <!--I noticed that the bootstrap codes were responsive, where my images and videos were not. So, I used the "d-block w-100" HTML code that I found in the bootstrap and added that as a class to my images and video to try and make them responsive. Seems to have worked.-->
+
+          <div class="d-block w-100">
+            <video width="800" height="500" autoplay muted loop class="d-block w-100">
               <source src="videos/protest.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
@@ -194,10 +196,10 @@
         
 
         
-        
-          <img src="images/handmaid.jpg" class="picture" alt="woman dressed as a handmaid, carrying a sign saying your TV show is our reality in Iran ">
+        <div class="d-block w-100">
+          <img src="images/handmaid.jpg" class="d-block w-100" alt="woman dressed as a handmaid, carrying a sign saying your TV show is our reality in Iran ">
           <p class="caption">Protestor uses TV references to allude to the state of women's rights in Iran </p>
-       
+        </div>
 
        
             <br>

@@ -87,10 +87,7 @@ p{
     .picture {
         width: 100%;
         height: auto;
-        margin: 0;
-        align-items: center;
-        margin-left: 10px;
-        margin-right: 10px;
+        display: block;
     }
 
     .footer{
@@ -103,9 +100,6 @@ p{
             max-width: 100%;
             height: auto;
         }
-        img {
-            max-width: 100%;
-            height: auto; 
         }
         video {
             max-width: 100%;
@@ -117,5 +111,3 @@ p{
         float: left;
         margin: 10px
     }
-
-  
