@@ -5,6 +5,12 @@
     height: auto;
 }
 
+.navbar{
+    position:fixed;
+    top: 0;
+    width:100%;
+}
+
 .headline {
     font-size: 4em;
     font-weight: 700;
