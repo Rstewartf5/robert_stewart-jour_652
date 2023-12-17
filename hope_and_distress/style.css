@@ -99,6 +99,16 @@ p{
     .footer{
         background-color: black;
     }
+
+    .blockquote{
+        background-color: white;
+        color: darkslategray;
+        font-size: medium;
+    }
+
+    .blockquote-footer{
+        color: whitesmoke
+    }
     
     
     @media screen and (max-width: 800px) {
